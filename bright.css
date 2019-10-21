@@ -4,7 +4,7 @@ body * {
   color:#1a1f26;
 }
 .glyphicon {
-    font-family: 'Glyphicons Halflings';
+    font-family: 'Glyphicons Halflings';//'Glyphicons Halflings'
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif !important;
