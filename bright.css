@@ -4,7 +4,7 @@ body * {
   color:#1a1f26;
 }
 .glyphicon {
-    font-family: 'Glyphicons Halflings';
+    font-family: 'Glyphicons Halflings 22';
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif !important;
@@ -53,7 +53,7 @@ a:hover,a:focus{
 }
 
 .site-logo {
-  background: transparent url("/globalassets/logo_demo-ducks.png") no-repeat top left;
+  background: transparent url("http://ascend2019-b.azurewebsites.net/globalassets/logo_demo-ducks.png") no-repeat top left;
   background-size:100%;
   width:80%;
   height:60px;
@@ -165,3 +165,18 @@ button, select {
     transform: none;
 }
 
+.showcases-commerce-wrapper-left {
+    float: left;
+    margin: revert;
+    margin-right: 2em;
+    margin-left: -1em;
+}
+
+.showcases-commerce-wrapper-link.fill-div {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
